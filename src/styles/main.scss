@@ -1,0 +1,88 @@
+body{
+    background-color: #0c0505;
+}
+header{
+    position: relative;
+    .container{    
+        max-width: 375px;
+        width: 100%;
+        background-color: #c23616;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 10px;
+
+
+        h1{
+            text-align: center;
+            margin-left: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #fff;
+        }
+        .material-symbols-outlined{
+            margin-right: 20px;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+}
+aside{
+    display: none;
+    position: absolute;
+    top: 1%;
+    left: 32%;
+    width: 250px;
+    .container2{
+        background-color: #ecf0f1;
+        border-radius: 10px;
+
+        .topo{
+            display: flex;
+            justify-content: space-between;
+            gap: 10%;
+            h2{
+                font-size: 20px;
+                margin-left: 20px;
+            }
+            span{
+                a{
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
+        h3{
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        ul{
+            padding: 0;
+            li{
+                display: flex;
+                gap: 5%;
+                list-style: none;
+                display: flex;
+                img{
+                    max-width: 100px;
+                    height: 70px;
+                    border-radius: 10px;
+                    border: 1px solid #000;
+                    margin-left: 15px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    margin-right: 15px;
+                    font-size: 8px;
+                }
+                h3{
+                    margin-right: 15px;
+                }
+
+            }
+        }
+    }
+}
