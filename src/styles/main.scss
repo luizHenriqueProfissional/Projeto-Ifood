@@ -1,10 +1,15 @@
+
 body{
     background-color: #0c0505;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:100%;
+    max-width:375px ;
 }
 header{
+    width: 97%;
     position: relative;
     .container{    
-        max-width: 375px;
+        max-width: 360px;
         width: 100%;
         background-color: #c23616;
         display: flex;
@@ -85,4 +90,58 @@ aside{
             }
         }
     }
+}
+section {
+    .container3{
+        h4{
+            color: #fff;
+            font-size: 25px;
+            margin-bottom: 50px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .lanches{
+            max-width: 360px;
+            ul{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 0;
+                margin: 0 10px;
+                gap: 5%;
+                li{
+                    text-align: center;
+                    margin-bottom: 30px;
+                    img{
+                        max-width: 80px;
+                        height: 90px;
+                    }
+                    .description__laches{
+                        text-align: center;
+                        h5{
+                            
+                            color: #fff;
+                            margin-bottom: 5px;
+                        }
+                        p{
+                            color: #ccc;
+                            font-size: 15px;
+                        }
+                        span{
+                            color: #f7f0f048;
+                        }
+                        button{
+                            background-color: red;
+                            color: #fff;
+                            border: solid 1px #fff;
+                            padding: 5px;
+                            margin-top: 10px;
+                            width: 100%;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
