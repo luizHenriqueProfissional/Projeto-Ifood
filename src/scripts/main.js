@@ -9,4 +9,5 @@ const abreCarrinho = document.getElementById('carrinho')
         else{
                 const fecharPedidos = document.getElementById('fechar-pedidos')
                 fecharPedidos.style.display = 'none'
+        }
     })
