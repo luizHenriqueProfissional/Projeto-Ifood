@@ -21,6 +21,6 @@ produto1 += `<span>R$30,00</span>`
 produto1 += '</li>'
 
 const conteudoLateral = document.getElementById(‘conteúdos ')
-conteudoLateral.innerHtml = produtos.value
+conteudoLateral.innerHtml = produtos
 alert(conteudoLateral)
 
