@@ -13,10 +13,10 @@ const abreCarrinho = document.getElementById('carrinho')
     })
 let produtos
 produto1 = '<li>'
-produto1 += ’<img src="./imagens/carrosel/combo-hamburguer-acompanhamentos.jpg" alt="">’
-produto1 += ’<div class="description__laches">’
-produto1 += ’<h5>Combo Hamburguer</h5>’
-produto1 += ’<p>2 carnes, queijo, presunto + acompanhamentos</p>’
+produto1 += `<img src="./imagens/carrosel/combo-hamburguer-acompanhamentos.jpg" alt="">`
+produto1 += `<div class="description__laches">`
+produto1 += `<h5>Combo Hamburguer</h5>`
+produto1 += `<p>2 carnes, queijo, presunto + acompanhamentos</p>`
 produto1 += `<span>R$30,00</span>`
 produto1 += '</li>'
 
