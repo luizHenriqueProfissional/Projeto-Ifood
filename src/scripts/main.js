@@ -20,7 +20,7 @@ produto1 += `<p>2 carnes, queijo, presunto + acompanhamentos</p>`
 produto1 += `<span>R$30,00</span>`
 produto1 += '</li>'
 
-Const conteudoLateral = document.getElementById(‘conteúdos ')
+const conteudoLateral = document.getElementById(‘conteúdos ')
 conteudoLateral.innerHtml = produtos.value
 alert(conteudoLateral)
 
