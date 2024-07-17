@@ -17,7 +17,7 @@ produto1 += ’<img src="./imagens/carrosel/combo-hamburguer-acompanhamentos.jpg
 produto1 += ’<div class="description__laches">’
 produto1 += ’<h5>Combo Hamburguer</h5>’
 produto1 += ’<p>2 carnes, queijo, presunto + acompanhamentos</p>’
-produto1 += ’<span>R$30,00</span>’
+produto1 += `<span>R$30,00</span>`
 produto1 += '</li>'
 
 Const conteudoLateral = document.getElementById(‘conteúdos ')
