@@ -22,4 +22,5 @@ produto1 += '</li>'
 
 Const conteudoLateral = document.getElementById(‘conteúdos ')
 conteudoLateral.innerHtml = produtos
+alert(produtos)
 
