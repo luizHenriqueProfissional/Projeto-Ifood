@@ -13,5 +13,5 @@ const abreCarrinho = document.getElementById('carrinho')
     })
 const atribuiValor = document.GetElementById("valor1");
 let valorNovo;
-valorNovo.innerHtml = atribuiValor.value;
+valorNovo.innerHtml = atribuiValor;
 alert(valorNovo)
