@@ -11,6 +11,7 @@ const abreCarrinho = document.getElementById('carrinho')
                 fecharPedidos.style.display = 'none'
         }
     })
-let meuCampo = document.getElementById('nome');
-let valor = meuCampo.value;
-alert(valor);
+const atribuiValor = document.GetElementById("valor1")
+let valorNovo
+valorNovo.innerHtml = atribuiValor.value
+console.log(valorNovo)
