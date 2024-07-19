@@ -11,7 +11,7 @@ const abreCarrinho = document.getElementById('carrinho')
                 fecharPedidos.style.display = 'none'
         }
     })
-const atribuiValor = document.GetElementById("valor1");
+
 let valorNovo;
-valorNovo.innerHtml = atribuiValor;
+valorNovo.innerHtml = `Algo novo`;
 alert(valorNovo)
