@@ -12,6 +12,3 @@ const abreCarrinho = document.getElementById('carrinho')
         }
     })
 
-let valorNovo;
-valorNovo.innerHtml = `Algo novo`;
-alert(valorNovo)
